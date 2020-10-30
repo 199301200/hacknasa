@@ -6,12 +6,12 @@ using namespace std;
 #define NULL 0 /* standard C++ definition */
 #endif
 
-void f( int i ) {
-	printf("the int is %d\n", i);
+void f( int g ) {
+	printf("the int is %d\n", g);
 }
 
 void f( char * s ) {
-	printf("the pointer is %p\n", s);
+	printf("the pointer is %p\t", s);
 }
 
 int main( int argc, char ** argv ) {
